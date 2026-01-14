@@ -1,0 +1,1 @@
+function addProduct(){let p=JSON.parse(localStorage.getItem("products"))||[];p.push({name:name.value,price:price.value,img:img.value});localStorage.setItem("products",JSON.stringify(p));alert("تمت الإضافة");}
